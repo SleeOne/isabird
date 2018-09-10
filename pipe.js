@@ -1,9 +1,12 @@
 function Pipe() {
-	this.top = random(height/2);
-	this.bottom = random(height/2);
+	this.min = 100;
+
+	this.bottom = random(height-200);
+	this.top = height - this.bottom-this.min;
+	
 	this.x = width;
-	this.w = 20;
-	this.speed = 3;
+	this.w = 50;
+	this.speed = 2;
 
 	this.highlight = false;
 
@@ -23,6 +26,7 @@ function Pipe() {
 		if (this.highlight){
 			fill(255,0,0)
 		}
+		
 		rect(this.x, 0, this.w, this.top);
 		rect(this.x, height-this.bottom, this.w, this.bottom);
 	}
