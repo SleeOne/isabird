@@ -1,1 +1,1 @@
-https://sleeone.github.io/isabirdmazafaka/
+https://sleeone.github.io/isabird/
