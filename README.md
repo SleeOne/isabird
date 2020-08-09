@@ -1,1 +1,1 @@
-https://sleeone.github.io/isabird/
+https://slava-code.github.io/isabird/
